@@ -1,0 +1,558 @@
+INFO - 04/04/25 23:42:01 - 0:00:00 - Namespace(name='2025_04_04_23_42_00_510454', task='sw', model='sin', seed=0, cuda=0, log_interval=50, ablation=False, data_path='./generated_data/', results_path='./results/', dim_covariates=20, dim_node_features=1, num_treatments=200, batch_size=500, bias=20.0, lr=0.0005, optimizer='adam', lr_scheduler='none', lr_gamma=0.98, patience=10, max_epochs=50000, weight_decay=0.0, val_interval=1, val_size=0.2, min_test_assignments=2, max_test_assignments=10, gnn_dropout=0.0, dropout=0.0, activation='relu', leaky_relu=0.1, gnn_batch_norm=True, mlp_batch_norm=False, output_activation_treatment_features=True, initialiser='xavier', num_covariates_layer=3, dim_hidden_covariates=200, dim_hidden_treatment=100, dim_output_covariates=100, dim_output_treatment=100, num_treatment_layer=3, gnn_conv='graph_conv', gnn_num_relations=5, gnn_num_bases=-1, gnn_multirelational=False, gnn_weight_decay=0.0, dim_output=100, num_update_steps_como=1, num_update_steps_propensity=1, num_update_steps_global_objective=15, num_propensity_layers=4, dim_hidden_propensity=60, pro_dropout=0.0, pro_weight_decay=0.0, pro_lr=0.001, como_dropout=0.0, como_lr=0.001, como_weight_decay=0.0, como_patience=10, dim_hidden_como=200, num_como_layers=3, max_epochs_como_training=50000, independence_regularisation_coeff=10.0, num_final_ff_layer=2)
+INFO - 04/04/25 23:42:01 - 0:00:00 - COMO Train Epoch: 1 [0/800 (0%)]	Loss: 4015.118896
+INFO - 04/04/25 23:42:01 - 0:00:00 - como_val_loss: 4080.676875
+INFO - 04/04/25 23:42:01 - 0:00:00 - COMO Train Epoch: 2 [0/800 (0%)]	Loss: 4015.750000
+INFO - 04/04/25 23:42:01 - 0:00:00 - como_val_loss: 4073.986563
+INFO - 04/04/25 23:42:01 - 0:00:00 - COMO Train Epoch: 3 [0/800 (0%)]	Loss: 3776.120361
+INFO - 04/04/25 23:42:01 - 0:00:00 - como_val_loss: 4067.114062
+INFO - 04/04/25 23:42:01 - 0:00:00 - COMO Train Epoch: 4 [0/800 (0%)]	Loss: 4028.406494
+INFO - 04/04/25 23:42:01 - 0:00:00 - como_val_loss: 4059.981875
+INFO - 04/04/25 23:42:01 - 0:00:00 - COMO Train Epoch: 5 [0/800 (0%)]	Loss: 3968.419189
+INFO - 04/04/25 23:42:01 - 0:00:00 - como_val_loss: 4052.485625
+INFO - 04/04/25 23:42:01 - 0:00:00 - COMO Train Epoch: 6 [0/800 (0%)]	Loss: 3843.722412
+INFO - 04/04/25 23:42:01 - 0:00:00 - como_val_loss: 4044.535625
+INFO - 04/04/25 23:42:01 - 0:00:00 - COMO Train Epoch: 7 [0/800 (0%)]	Loss: 4024.713379
+INFO - 04/04/25 23:42:01 - 0:00:00 - como_val_loss: 4035.974375
+INFO - 04/04/25 23:42:01 - 0:00:00 - COMO Train Epoch: 8 [0/800 (0%)]	Loss: 4101.201660
+INFO - 04/04/25 23:42:01 - 0:00:00 - como_val_loss: 4026.716250
+INFO - 04/04/25 23:42:01 - 0:00:00 - COMO Train Epoch: 9 [0/800 (0%)]	Loss: 4044.045898
+INFO - 04/04/25 23:42:01 - 0:00:00 - como_val_loss: 4016.693438
+INFO - 04/04/25 23:42:01 - 0:00:00 - COMO Train Epoch: 10 [0/800 (0%)]	Loss: 3769.609863
+INFO - 04/04/25 23:42:01 - 0:00:00 - como_val_loss: 4005.743437
+INFO - 04/04/25 23:42:01 - 0:00:00 - COMO Train Epoch: 11 [0/800 (0%)]	Loss: 3735.293701
+INFO - 04/04/25 23:42:01 - 0:00:00 - como_val_loss: 3993.667188
+INFO - 04/04/25 23:42:01 - 0:00:00 - COMO Train Epoch: 12 [0/800 (0%)]	Loss: 3790.798096
+INFO - 04/04/25 23:42:01 - 0:00:00 - como_val_loss: 3980.352188
+INFO - 04/04/25 23:42:01 - 0:00:00 - COMO Train Epoch: 13 [0/800 (0%)]	Loss: 3711.913086
+INFO - 04/04/25 23:42:01 - 0:00:00 - como_val_loss: 3965.714687
+INFO - 04/04/25 23:42:01 - 0:00:00 - COMO Train Epoch: 14 [0/800 (0%)]	Loss: 3862.317871
+INFO - 04/04/25 23:42:01 - 0:00:00 - como_val_loss: 3949.620625
+INFO - 04/04/25 23:42:01 - 0:00:00 - COMO Train Epoch: 15 [0/800 (0%)]	Loss: 3665.757812
+INFO - 04/04/25 23:42:01 - 0:00:00 - como_val_loss: 3932.016250
+INFO - 04/04/25 23:42:01 - 0:00:00 - COMO Train Epoch: 16 [0/800 (0%)]	Loss: 3700.803467
+INFO - 04/04/25 23:42:01 - 0:00:00 - como_val_loss: 3912.752188
+INFO - 04/04/25 23:42:01 - 0:00:00 - COMO Train Epoch: 17 [0/800 (0%)]	Loss: 3860.193359
+INFO - 04/04/25 23:42:01 - 0:00:00 - como_val_loss: 3891.732187
+INFO - 04/04/25 23:42:01 - 0:00:00 - COMO Train Epoch: 18 [0/800 (0%)]	Loss: 3975.238281
+INFO - 04/04/25 23:42:01 - 0:00:00 - como_val_loss: 3868.903438
+INFO - 04/04/25 23:42:01 - 0:00:00 - COMO Train Epoch: 19 [0/800 (0%)]	Loss: 3652.920410
+INFO - 04/04/25 23:42:02 - 0:00:00 - como_val_loss: 3844.204688
+INFO - 04/04/25 23:42:02 - 0:00:00 - COMO Train Epoch: 20 [0/800 (0%)]	Loss: 3694.378174
+INFO - 04/04/25 23:42:02 - 0:00:00 - como_val_loss: 3817.380625
+INFO - 04/04/25 23:42:02 - 0:00:00 - COMO Train Epoch: 21 [0/800 (0%)]	Loss: 3418.127930
+INFO - 04/04/25 23:42:02 - 0:00:00 - como_val_loss: 3788.512500
+INFO - 04/04/25 23:42:02 - 0:00:00 - COMO Train Epoch: 22 [0/800 (0%)]	Loss: 3741.410645
+INFO - 04/04/25 23:42:02 - 0:00:00 - como_val_loss: 3757.328437
+INFO - 04/04/25 23:42:02 - 0:00:00 - COMO Train Epoch: 23 [0/800 (0%)]	Loss: 3821.780273
+INFO - 04/04/25 23:42:02 - 0:00:00 - como_val_loss: 3724.143125
+INFO - 04/04/25 23:42:02 - 0:00:00 - COMO Train Epoch: 24 [0/800 (0%)]	Loss: 3707.974609
+INFO - 04/04/25 23:42:02 - 0:00:00 - como_val_loss: 3688.743125
+INFO - 04/04/25 23:42:02 - 0:00:01 - COMO Train Epoch: 25 [0/800 (0%)]	Loss: 3455.071777
+INFO - 04/04/25 23:42:02 - 0:00:01 - como_val_loss: 3651.073750
+INFO - 04/04/25 23:42:02 - 0:00:01 - COMO Train Epoch: 26 [0/800 (0%)]	Loss: 3486.414062
+INFO - 04/04/25 23:42:02 - 0:00:01 - como_val_loss: 3611.120000
+INFO - 04/04/25 23:42:02 - 0:00:01 - COMO Train Epoch: 27 [0/800 (0%)]	Loss: 3533.922119
+INFO - 04/04/25 23:42:02 - 0:00:01 - como_val_loss: 3568.942812
+INFO - 04/04/25 23:42:02 - 0:00:01 - COMO Train Epoch: 28 [0/800 (0%)]	Loss: 3489.073975
+INFO - 04/04/25 23:42:02 - 0:00:01 - como_val_loss: 3524.506875
+INFO - 04/04/25 23:42:02 - 0:00:01 - COMO Train Epoch: 29 [0/800 (0%)]	Loss: 3521.951660
+INFO - 04/04/25 23:42:02 - 0:00:01 - como_val_loss: 3477.634062
+INFO - 04/04/25 23:42:02 - 0:00:01 - COMO Train Epoch: 30 [0/800 (0%)]	Loss: 3144.152100
+INFO - 04/04/25 23:42:02 - 0:00:01 - como_val_loss: 3428.358125
+INFO - 04/04/25 23:42:02 - 0:00:01 - COMO Train Epoch: 31 [0/800 (0%)]	Loss: 3077.571045
+INFO - 04/04/25 23:42:02 - 0:00:01 - como_val_loss: 3376.487500
+INFO - 04/04/25 23:42:02 - 0:00:01 - COMO Train Epoch: 32 [0/800 (0%)]	Loss: 3251.038574
+INFO - 04/04/25 23:42:02 - 0:00:01 - como_val_loss: 3321.906875
+INFO - 04/04/25 23:42:02 - 0:00:01 - COMO Train Epoch: 33 [0/800 (0%)]	Loss: 3268.563965
+INFO - 04/04/25 23:42:02 - 0:00:01 - como_val_loss: 3264.848125
+INFO - 04/04/25 23:42:02 - 0:00:01 - COMO Train Epoch: 34 [0/800 (0%)]	Loss: 2919.329834
+INFO - 04/04/25 23:42:02 - 0:00:01 - como_val_loss: 3205.413437
+INFO - 04/04/25 23:42:02 - 0:00:01 - COMO Train Epoch: 35 [0/800 (0%)]	Loss: 2938.710693
+INFO - 04/04/25 23:42:02 - 0:00:01 - como_val_loss: 3143.284062
+INFO - 04/04/25 23:42:02 - 0:00:01 - COMO Train Epoch: 36 [0/800 (0%)]	Loss: 3090.275146
+INFO - 04/04/25 23:42:02 - 0:00:01 - como_val_loss: 3078.480000
+INFO - 04/04/25 23:42:02 - 0:00:01 - COMO Train Epoch: 37 [0/800 (0%)]	Loss: 2943.266602
+INFO - 04/04/25 23:42:02 - 0:00:01 - como_val_loss: 3011.269063
+INFO - 04/04/25 23:42:02 - 0:00:01 - COMO Train Epoch: 38 [0/800 (0%)]	Loss: 2952.871826
+INFO - 04/04/25 23:42:02 - 0:00:01 - como_val_loss: 2941.548750
+INFO - 04/04/25 23:42:02 - 0:00:01 - COMO Train Epoch: 39 [0/800 (0%)]	Loss: 3074.363770
+INFO - 04/04/25 23:42:02 - 0:00:01 - como_val_loss: 2869.502188
+INFO - 04/04/25 23:42:02 - 0:00:01 - COMO Train Epoch: 40 [0/800 (0%)]	Loss: 2771.625732
+INFO - 04/04/25 23:42:02 - 0:00:01 - como_val_loss: 2795.374375
+INFO - 04/04/25 23:42:02 - 0:00:01 - COMO Train Epoch: 41 [0/800 (0%)]	Loss: 2544.595947
+INFO - 04/04/25 23:42:02 - 0:00:01 - como_val_loss: 2719.112187
+INFO - 04/04/25 23:42:02 - 0:00:01 - COMO Train Epoch: 42 [0/800 (0%)]	Loss: 2457.431641
+INFO - 04/04/25 23:42:02 - 0:00:01 - como_val_loss: 2640.535000
+INFO - 04/04/25 23:42:02 - 0:00:01 - COMO Train Epoch: 43 [0/800 (0%)]	Loss: 2568.488525
+INFO - 04/04/25 23:42:02 - 0:00:01 - como_val_loss: 2559.746250
+INFO - 04/04/25 23:42:02 - 0:00:01 - COMO Train Epoch: 44 [0/800 (0%)]	Loss: 2403.122070
+INFO - 04/04/25 23:42:02 - 0:00:01 - como_val_loss: 2477.264688
+INFO - 04/04/25 23:42:02 - 0:00:01 - COMO Train Epoch: 45 [0/800 (0%)]	Loss: 2366.799805
+INFO - 04/04/25 23:42:02 - 0:00:01 - como_val_loss: 2392.957188
+INFO - 04/04/25 23:42:02 - 0:00:01 - COMO Train Epoch: 46 [0/800 (0%)]	Loss: 2243.961426
+INFO - 04/04/25 23:42:02 - 0:00:01 - como_val_loss: 2306.968594
+INFO - 04/04/25 23:42:02 - 0:00:01 - COMO Train Epoch: 47 [0/800 (0%)]	Loss: 2299.689697
+INFO - 04/04/25 23:42:02 - 0:00:01 - como_val_loss: 2219.467656
+INFO - 04/04/25 23:42:02 - 0:00:01 - COMO Train Epoch: 48 [0/800 (0%)]	Loss: 2051.853271
+INFO - 04/04/25 23:42:02 - 0:00:01 - como_val_loss: 2130.899063
+INFO - 04/04/25 23:42:02 - 0:00:01 - COMO Train Epoch: 49 [0/800 (0%)]	Loss: 2001.475708
+INFO - 04/04/25 23:42:02 - 0:00:01 - como_val_loss: 2041.152812
+INFO - 04/04/25 23:42:02 - 0:00:01 - COMO Train Epoch: 50 [0/800 (0%)]	Loss: 1840.938843
+INFO - 04/04/25 23:42:02 - 0:00:01 - como_val_loss: 1950.764688
+INFO - 04/04/25 23:42:02 - 0:00:01 - COMO Train Epoch: 51 [0/800 (0%)]	Loss: 1748.892578
+INFO - 04/04/25 23:42:02 - 0:00:01 - como_val_loss: 1859.755000
+INFO - 04/04/25 23:42:02 - 0:00:01 - COMO Train Epoch: 52 [0/800 (0%)]	Loss: 1733.901733
+INFO - 04/04/25 23:42:02 - 0:00:01 - como_val_loss: 1768.274062
+INFO - 04/04/25 23:42:02 - 0:00:01 - COMO Train Epoch: 53 [0/800 (0%)]	Loss: 1730.088989
+INFO - 04/04/25 23:42:02 - 0:00:01 - como_val_loss: 1676.949687
+INFO - 04/04/25 23:42:02 - 0:00:01 - COMO Train Epoch: 54 [0/800 (0%)]	Loss: 1554.422485
+INFO - 04/04/25 23:42:02 - 0:00:01 - como_val_loss: 1586.323437
+INFO - 04/04/25 23:42:02 - 0:00:01 - COMO Train Epoch: 55 [0/800 (0%)]	Loss: 1553.635498
+INFO - 04/04/25 23:42:02 - 0:00:01 - como_val_loss: 1496.380625
+INFO - 04/04/25 23:42:02 - 0:00:01 - COMO Train Epoch: 56 [0/800 (0%)]	Loss: 1415.963013
+INFO - 04/04/25 23:42:02 - 0:00:01 - como_val_loss: 1407.736719
+INFO - 04/04/25 23:42:02 - 0:00:01 - COMO Train Epoch: 57 [0/800 (0%)]	Loss: 1284.201782
+INFO - 04/04/25 23:42:02 - 0:00:01 - como_val_loss: 1320.543437
+INFO - 04/04/25 23:42:02 - 0:00:01 - COMO Train Epoch: 58 [0/800 (0%)]	Loss: 1181.197632
+INFO - 04/04/25 23:42:02 - 0:00:01 - como_val_loss: 1234.966719
+INFO - 04/04/25 23:42:02 - 0:00:01 - COMO Train Epoch: 59 [0/800 (0%)]	Loss: 1098.234009
+INFO - 04/04/25 23:42:02 - 0:00:01 - como_val_loss: 1151.315312
+INFO - 04/04/25 23:42:02 - 0:00:01 - COMO Train Epoch: 60 [0/800 (0%)]	Loss: 1060.527466
+INFO - 04/04/25 23:42:02 - 0:00:01 - como_val_loss: 1069.856875
+INFO - 04/04/25 23:42:02 - 0:00:01 - COMO Train Epoch: 61 [0/800 (0%)]	Loss: 957.115540
+INFO - 04/04/25 23:42:02 - 0:00:01 - como_val_loss: 991.065703
+INFO - 04/04/25 23:42:02 - 0:00:01 - COMO Train Epoch: 62 [0/800 (0%)]	Loss: 879.167114
+INFO - 04/04/25 23:42:02 - 0:00:01 - como_val_loss: 915.061719
+INFO - 04/04/25 23:42:02 - 0:00:01 - COMO Train Epoch: 63 [0/800 (0%)]	Loss: 857.273132
+INFO - 04/04/25 23:42:02 - 0:00:01 - como_val_loss: 841.971719
+INFO - 04/04/25 23:42:02 - 0:00:01 - COMO Train Epoch: 64 [0/800 (0%)]	Loss: 802.097168
+INFO - 04/04/25 23:42:02 - 0:00:01 - como_val_loss: 772.286562
+INFO - 04/04/25 23:42:02 - 0:00:01 - COMO Train Epoch: 65 [0/800 (0%)]	Loss: 739.369385
+INFO - 04/04/25 23:42:02 - 0:00:01 - como_val_loss: 706.125234
+INFO - 04/04/25 23:42:02 - 0:00:01 - COMO Train Epoch: 66 [0/800 (0%)]	Loss: 634.345520
+INFO - 04/04/25 23:42:02 - 0:00:01 - como_val_loss: 643.719961
+INFO - 04/04/25 23:42:03 - 0:00:01 - COMO Train Epoch: 67 [0/800 (0%)]	Loss: 601.769226
+INFO - 04/04/25 23:42:03 - 0:00:01 - como_val_loss: 584.914883
+INFO - 04/04/25 23:42:03 - 0:00:01 - COMO Train Epoch: 68 [0/800 (0%)]	Loss: 572.015686
+INFO - 04/04/25 23:42:03 - 0:00:01 - como_val_loss: 530.007617
+INFO - 04/04/25 23:42:03 - 0:00:01 - COMO Train Epoch: 69 [0/800 (0%)]	Loss: 452.167480
+INFO - 04/04/25 23:42:03 - 0:00:01 - como_val_loss: 479.259727
+INFO - 04/04/25 23:42:03 - 0:00:01 - COMO Train Epoch: 70 [0/800 (0%)]	Loss: 430.286377
+INFO - 04/04/25 23:42:03 - 0:00:01 - como_val_loss: 432.240781
+INFO - 04/04/25 23:42:03 - 0:00:01 - COMO Train Epoch: 71 [0/800 (0%)]	Loss: 367.106598
+INFO - 04/04/25 23:42:03 - 0:00:01 - como_val_loss: 389.077422
+INFO - 04/04/25 23:42:03 - 0:00:01 - COMO Train Epoch: 72 [0/800 (0%)]	Loss: 381.553284
+INFO - 04/04/25 23:42:03 - 0:00:01 - como_val_loss: 349.438750
+INFO - 04/04/25 23:42:03 - 0:00:02 - COMO Train Epoch: 73 [0/800 (0%)]	Loss: 349.247437
+INFO - 04/04/25 23:42:03 - 0:00:02 - como_val_loss: 313.587969
+INFO - 04/04/25 23:42:03 - 0:00:02 - COMO Train Epoch: 74 [0/800 (0%)]	Loss: 290.450439
+INFO - 04/04/25 23:42:03 - 0:00:02 - como_val_loss: 281.323887
+INFO - 04/04/25 23:42:03 - 0:00:02 - COMO Train Epoch: 75 [0/800 (0%)]	Loss: 250.122879
+INFO - 04/04/25 23:42:03 - 0:00:02 - como_val_loss: 252.380742
+INFO - 04/04/25 23:42:03 - 0:00:02 - COMO Train Epoch: 76 [0/800 (0%)]	Loss: 227.996155
+INFO - 04/04/25 23:42:03 - 0:00:02 - como_val_loss: 226.496758
+INFO - 04/04/25 23:42:03 - 0:00:02 - COMO Train Epoch: 77 [0/800 (0%)]	Loss: 207.646149
+INFO - 04/04/25 23:42:03 - 0:00:02 - como_val_loss: 203.427793
+INFO - 04/04/25 23:42:03 - 0:00:02 - COMO Train Epoch: 78 [0/800 (0%)]	Loss: 184.483932
+INFO - 04/04/25 23:42:03 - 0:00:02 - como_val_loss: 182.960703
+INFO - 04/04/25 23:42:03 - 0:00:02 - COMO Train Epoch: 79 [0/800 (0%)]	Loss: 169.615128
+INFO - 04/04/25 23:42:03 - 0:00:02 - como_val_loss: 164.994082
+INFO - 04/04/25 23:42:03 - 0:00:02 - COMO Train Epoch: 80 [0/800 (0%)]	Loss: 150.129089
+INFO - 04/04/25 23:42:03 - 0:00:02 - como_val_loss: 149.169414
+INFO - 04/04/25 23:42:03 - 0:00:02 - COMO Train Epoch: 81 [0/800 (0%)]	Loss: 140.351959
+INFO - 04/04/25 23:42:03 - 0:00:02 - como_val_loss: 135.379668
+INFO - 04/04/25 23:42:03 - 0:00:02 - COMO Train Epoch: 82 [0/800 (0%)]	Loss: 126.665512
+INFO - 04/04/25 23:42:03 - 0:00:02 - como_val_loss: 123.397773
+INFO - 04/04/25 23:42:03 - 0:00:02 - COMO Train Epoch: 83 [0/800 (0%)]	Loss: 121.226471
+INFO - 04/04/25 23:42:03 - 0:00:02 - como_val_loss: 112.962109
+INFO - 04/04/25 23:42:03 - 0:00:02 - COMO Train Epoch: 84 [0/800 (0%)]	Loss: 101.761497
+INFO - 04/04/25 23:42:03 - 0:00:02 - como_val_loss: 103.940107
+INFO - 04/04/25 23:42:03 - 0:00:02 - COMO Train Epoch: 85 [0/800 (0%)]	Loss: 97.174934
+INFO - 04/04/25 23:42:03 - 0:00:02 - como_val_loss: 96.077852
+INFO - 04/04/25 23:42:03 - 0:00:02 - COMO Train Epoch: 86 [0/800 (0%)]	Loss: 100.794373
+INFO - 04/04/25 23:42:03 - 0:00:02 - como_val_loss: 89.224297
+INFO - 04/04/25 23:42:03 - 0:00:02 - COMO Train Epoch: 87 [0/800 (0%)]	Loss: 80.087654
+INFO - 04/04/25 23:42:03 - 0:00:02 - como_val_loss: 83.244961
+INFO - 04/04/25 23:42:03 - 0:00:02 - COMO Train Epoch: 88 [0/800 (0%)]	Loss: 82.454811
+INFO - 04/04/25 23:42:03 - 0:00:02 - como_val_loss: 77.988184
+INFO - 04/04/25 23:42:03 - 0:00:02 - COMO Train Epoch: 89 [0/800 (0%)]	Loss: 78.410950
+INFO - 04/04/25 23:42:03 - 0:00:02 - como_val_loss: 73.356191
+INFO - 04/04/25 23:42:03 - 0:00:02 - COMO Train Epoch: 90 [0/800 (0%)]	Loss: 75.935486
+INFO - 04/04/25 23:42:03 - 0:00:02 - como_val_loss: 69.272246
+INFO - 04/04/25 23:42:03 - 0:00:02 - COMO Train Epoch: 91 [0/800 (0%)]	Loss: 69.980682
+INFO - 04/04/25 23:42:03 - 0:00:02 - como_val_loss: 65.677427
+INFO - 04/04/25 23:42:03 - 0:00:02 - COMO Train Epoch: 92 [0/800 (0%)]	Loss: 61.567554
+INFO - 04/04/25 23:42:03 - 0:00:02 - como_val_loss: 62.436509
+INFO - 04/04/25 23:42:03 - 0:00:02 - COMO Train Epoch: 93 [0/800 (0%)]	Loss: 65.662170
+INFO - 04/04/25 23:42:03 - 0:00:02 - como_val_loss: 59.539209
+INFO - 04/04/25 23:42:03 - 0:00:02 - COMO Train Epoch: 94 [0/800 (0%)]	Loss: 66.251717
+INFO - 04/04/25 23:42:03 - 0:00:02 - como_val_loss: 56.937808
+INFO - 04/04/25 23:42:03 - 0:00:02 - COMO Train Epoch: 95 [0/800 (0%)]	Loss: 56.102661
+INFO - 04/04/25 23:42:03 - 0:00:02 - como_val_loss: 54.610430
+INFO - 04/04/25 23:42:03 - 0:00:02 - COMO Train Epoch: 96 [0/800 (0%)]	Loss: 52.262421
+INFO - 04/04/25 23:42:03 - 0:00:02 - como_val_loss: 52.504214
+INFO - 04/04/25 23:42:03 - 0:00:02 - COMO Train Epoch: 97 [0/800 (0%)]	Loss: 50.611828
+INFO - 04/04/25 23:42:03 - 0:00:02 - como_val_loss: 50.597466
+INFO - 04/04/25 23:42:03 - 0:00:02 - COMO Train Epoch: 98 [0/800 (0%)]	Loss: 54.486797
+INFO - 04/04/25 23:42:03 - 0:00:02 - como_val_loss: 48.851602
+INFO - 04/04/25 23:42:03 - 0:00:02 - COMO Train Epoch: 99 [0/800 (0%)]	Loss: 46.436695
+INFO - 04/04/25 23:42:03 - 0:00:02 - como_val_loss: 47.287900
+INFO - 04/04/25 23:42:03 - 0:00:02 - COMO Train Epoch: 100 [0/800 (0%)]	Loss: 52.498413
+INFO - 04/04/25 23:42:03 - 0:00:02 - como_val_loss: 45.859448
+INFO - 04/04/25 23:42:03 - 0:00:02 - COMO Train Epoch: 101 [0/800 (0%)]	Loss: 53.907845
+INFO - 04/04/25 23:42:03 - 0:00:02 - como_val_loss: 44.541934
+INFO - 04/04/25 23:42:03 - 0:00:02 - COMO Train Epoch: 102 [0/800 (0%)]	Loss: 41.544720
+INFO - 04/04/25 23:42:03 - 0:00:02 - como_val_loss: 43.333867
+INFO - 04/04/25 23:42:03 - 0:00:02 - COMO Train Epoch: 103 [0/800 (0%)]	Loss: 44.814182
+INFO - 04/04/25 23:42:03 - 0:00:02 - como_val_loss: 42.199258
+INFO - 04/04/25 23:42:03 - 0:00:02 - COMO Train Epoch: 104 [0/800 (0%)]	Loss: 40.204369
+INFO - 04/04/25 23:42:03 - 0:00:02 - como_val_loss: 41.141553
+INFO - 04/04/25 23:42:03 - 0:00:02 - COMO Train Epoch: 105 [0/800 (0%)]	Loss: 44.627617
+INFO - 04/04/25 23:42:03 - 0:00:02 - como_val_loss: 40.157629
+INFO - 04/04/25 23:42:03 - 0:00:02 - COMO Train Epoch: 106 [0/800 (0%)]	Loss: 39.501656
+INFO - 04/04/25 23:42:03 - 0:00:02 - como_val_loss: 39.269976
+INFO - 04/04/25 23:42:03 - 0:00:02 - COMO Train Epoch: 107 [0/800 (0%)]	Loss: 42.421867
+INFO - 04/04/25 23:42:03 - 0:00:02 - como_val_loss: 38.424939
+INFO - 04/04/25 23:42:03 - 0:00:02 - COMO Train Epoch: 108 [0/800 (0%)]	Loss: 35.483112
+INFO - 04/04/25 23:42:03 - 0:00:02 - como_val_loss: 37.672383
+INFO - 04/04/25 23:42:03 - 0:00:02 - COMO Train Epoch: 109 [0/800 (0%)]	Loss: 40.392632
+INFO - 04/04/25 23:42:03 - 0:00:02 - como_val_loss: 36.986467
+INFO - 04/04/25 23:42:03 - 0:00:02 - COMO Train Epoch: 110 [0/800 (0%)]	Loss: 38.874100
+INFO - 04/04/25 23:42:03 - 0:00:02 - como_val_loss: 36.341311
+INFO - 04/04/25 23:42:03 - 0:00:02 - COMO Train Epoch: 111 [0/800 (0%)]	Loss: 30.974991
+INFO - 04/04/25 23:42:03 - 0:00:02 - como_val_loss: 35.778684
+INFO - 04/04/25 23:42:03 - 0:00:02 - COMO Train Epoch: 112 [0/800 (0%)]	Loss: 35.457340
+INFO - 04/04/25 23:42:03 - 0:00:02 - como_val_loss: 35.257424
+INFO - 04/04/25 23:42:03 - 0:00:02 - COMO Train Epoch: 113 [0/800 (0%)]	Loss: 34.085823
+INFO - 04/04/25 23:42:03 - 0:00:02 - como_val_loss: 34.758159
+INFO - 04/04/25 23:42:03 - 0:00:02 - COMO Train Epoch: 114 [0/800 (0%)]	Loss: 28.679766
+INFO - 04/04/25 23:42:03 - 0:00:02 - como_val_loss: 34.281035
+INFO - 04/04/25 23:42:03 - 0:00:02 - COMO Train Epoch: 115 [0/800 (0%)]	Loss: 35.327923
+INFO - 04/04/25 23:42:03 - 0:00:02 - como_val_loss: 33.839182
+INFO - 04/04/25 23:42:03 - 0:00:02 - COMO Train Epoch: 116 [0/800 (0%)]	Loss: 38.516758
+INFO - 04/04/25 23:42:03 - 0:00:02 - como_val_loss: 33.398418
+INFO - 04/04/25 23:42:03 - 0:00:02 - COMO Train Epoch: 117 [0/800 (0%)]	Loss: 33.075802
+INFO - 04/04/25 23:42:03 - 0:00:02 - como_val_loss: 32.972920
+INFO - 04/04/25 23:42:03 - 0:00:02 - COMO Train Epoch: 118 [0/800 (0%)]	Loss: 30.394638
+INFO - 04/04/25 23:42:03 - 0:00:02 - como_val_loss: 32.546680
+INFO - 04/04/25 23:42:03 - 0:00:02 - COMO Train Epoch: 119 [0/800 (0%)]	Loss: 36.808590
+INFO - 04/04/25 23:42:03 - 0:00:02 - como_val_loss: 32.182441
+INFO - 04/04/25 23:42:03 - 0:00:02 - COMO Train Epoch: 120 [0/800 (0%)]	Loss: 31.139591
+INFO - 04/04/25 23:42:03 - 0:00:02 - como_val_loss: 31.824800
+INFO - 04/04/25 23:42:03 - 0:00:02 - COMO Train Epoch: 121 [0/800 (0%)]	Loss: 33.376194
+INFO - 04/04/25 23:42:03 - 0:00:02 - como_val_loss: 31.487285
+INFO - 04/04/25 23:42:03 - 0:00:02 - COMO Train Epoch: 122 [0/800 (0%)]	Loss: 29.164032
+INFO - 04/04/25 23:42:03 - 0:00:02 - como_val_loss: 31.180012
+INFO - 04/04/25 23:42:03 - 0:00:02 - COMO Train Epoch: 123 [0/800 (0%)]	Loss: 38.053757
+INFO - 04/04/25 23:42:03 - 0:00:02 - como_val_loss: 30.905764
+INFO - 04/04/25 23:42:03 - 0:00:02 - COMO Train Epoch: 124 [0/800 (0%)]	Loss: 28.585697
+INFO - 04/04/25 23:42:03 - 0:00:02 - como_val_loss: 30.628596
+INFO - 04/04/25 23:42:03 - 0:00:02 - COMO Train Epoch: 125 [0/800 (0%)]	Loss: 34.906822
+INFO - 04/04/25 23:42:03 - 0:00:02 - como_val_loss: 30.361174
+INFO - 04/04/25 23:42:03 - 0:00:02 - COMO Train Epoch: 126 [0/800 (0%)]	Loss: 27.992687
+INFO - 04/04/25 23:42:03 - 0:00:02 - como_val_loss: 30.107354
+INFO - 04/04/25 23:42:03 - 0:00:02 - COMO Train Epoch: 127 [0/800 (0%)]	Loss: 26.664093
+INFO - 04/04/25 23:42:03 - 0:00:02 - como_val_loss: 29.851704
+INFO - 04/04/25 23:42:04 - 0:00:02 - COMO Train Epoch: 128 [0/800 (0%)]	Loss: 33.362801
+INFO - 04/04/25 23:42:04 - 0:00:02 - como_val_loss: 29.629536
+INFO - 04/04/25 23:42:04 - 0:00:02 - COMO Train Epoch: 129 [0/800 (0%)]	Loss: 38.572468
+INFO - 04/04/25 23:42:04 - 0:00:02 - como_val_loss: 29.428022
+INFO - 04/04/25 23:42:04 - 0:00:02 - COMO Train Epoch: 130 [0/800 (0%)]	Loss: 35.750103
+INFO - 04/04/25 23:42:04 - 0:00:02 - como_val_loss: 29.231853
+INFO - 04/04/25 23:42:04 - 0:00:02 - COMO Train Epoch: 131 [0/800 (0%)]	Loss: 29.508871
+INFO - 04/04/25 23:42:04 - 0:00:02 - como_val_loss: 29.061304
+INFO - 04/04/25 23:42:04 - 0:00:02 - COMO Train Epoch: 132 [0/800 (0%)]	Loss: 26.406536
+INFO - 04/04/25 23:42:04 - 0:00:02 - como_val_loss: 28.897212
+INFO - 04/04/25 23:42:04 - 0:00:02 - COMO Train Epoch: 133 [0/800 (0%)]	Loss: 27.239134
+INFO - 04/04/25 23:42:04 - 0:00:03 - como_val_loss: 28.736738
+INFO - 04/04/25 23:42:04 - 0:00:03 - COMO Train Epoch: 134 [0/800 (0%)]	Loss: 21.763884
+INFO - 04/04/25 23:42:04 - 0:00:03 - como_val_loss: 28.569343
+INFO - 04/04/25 23:42:04 - 0:00:03 - COMO Train Epoch: 135 [0/800 (0%)]	Loss: 28.602785
+INFO - 04/04/25 23:42:04 - 0:00:03 - como_val_loss: 28.430898
+INFO - 04/04/25 23:42:04 - 0:00:03 - COMO Train Epoch: 136 [0/800 (0%)]	Loss: 27.511208
+INFO - 04/04/25 23:42:04 - 0:00:03 - como_val_loss: 28.293047
+INFO - 04/04/25 23:42:04 - 0:00:03 - COMO Train Epoch: 137 [0/800 (0%)]	Loss: 24.064163
+INFO - 04/04/25 23:42:04 - 0:00:03 - como_val_loss: 28.167207
+INFO - 04/04/25 23:42:04 - 0:00:03 - COMO Train Epoch: 138 [0/800 (0%)]	Loss: 23.027821
+INFO - 04/04/25 23:42:04 - 0:00:03 - como_val_loss: 28.048074
+INFO - 04/04/25 23:42:04 - 0:00:03 - COMO Train Epoch: 139 [0/800 (0%)]	Loss: 29.197063
+INFO - 04/04/25 23:42:04 - 0:00:03 - como_val_loss: 27.959565
+INFO - 04/04/25 23:42:04 - 0:00:03 - COMO Train Epoch: 140 [0/800 (0%)]	Loss: 22.026218
+INFO - 04/04/25 23:42:04 - 0:00:03 - como_val_loss: 27.878818
+INFO - 04/04/25 23:42:04 - 0:00:03 - COMO Train Epoch: 141 [0/800 (0%)]	Loss: 31.220930
+INFO - 04/04/25 23:42:04 - 0:00:03 - como_val_loss: 27.788462
+INFO - 04/04/25 23:42:04 - 0:00:03 - COMO Train Epoch: 142 [0/800 (0%)]	Loss: 25.498337
+INFO - 04/04/25 23:42:04 - 0:00:03 - como_val_loss: 27.694316
+INFO - 04/04/25 23:42:04 - 0:00:03 - COMO Train Epoch: 143 [0/800 (0%)]	Loss: 29.489529
+INFO - 04/04/25 23:42:04 - 0:00:03 - como_val_loss: 27.588259
+INFO - 04/04/25 23:42:04 - 0:00:03 - COMO Train Epoch: 144 [0/800 (0%)]	Loss: 28.659313
+INFO - 04/04/25 23:42:04 - 0:00:03 - como_val_loss: 27.482310
+INFO - 04/04/25 23:42:04 - 0:00:03 - COMO Train Epoch: 145 [0/800 (0%)]	Loss: 26.515791
+INFO - 04/04/25 23:42:04 - 0:00:03 - como_val_loss: 27.372571
+INFO - 04/04/25 23:42:04 - 0:00:03 - COMO Train Epoch: 146 [0/800 (0%)]	Loss: 29.663679
+INFO - 04/04/25 23:42:04 - 0:00:03 - como_val_loss: 27.253979
+INFO - 04/04/25 23:42:04 - 0:00:03 - COMO Train Epoch: 147 [0/800 (0%)]	Loss: 25.310129
+INFO - 04/04/25 23:42:04 - 0:00:03 - como_val_loss: 27.145247
+INFO - 04/04/25 23:42:04 - 0:00:03 - COMO Train Epoch: 148 [0/800 (0%)]	Loss: 30.522274
+INFO - 04/04/25 23:42:04 - 0:00:03 - como_val_loss: 27.067549
+INFO - 04/04/25 23:42:04 - 0:00:03 - COMO Train Epoch: 149 [0/800 (0%)]	Loss: 22.624559
+INFO - 04/04/25 23:42:04 - 0:00:03 - como_val_loss: 26.967266
+INFO - 04/04/25 23:42:04 - 0:00:03 - COMO Train Epoch: 150 [0/800 (0%)]	Loss: 30.075668
+INFO - 04/04/25 23:42:04 - 0:00:03 - como_val_loss: 26.867549
+INFO - 04/04/25 23:42:04 - 0:00:03 - COMO Train Epoch: 151 [0/800 (0%)]	Loss: 28.803303
+INFO - 04/04/25 23:42:04 - 0:00:03 - como_val_loss: 26.772310
+INFO - 04/04/25 23:42:04 - 0:00:03 - COMO Train Epoch: 152 [0/800 (0%)]	Loss: 19.475689
+INFO - 04/04/25 23:42:04 - 0:00:03 - como_val_loss: 26.676138
+INFO - 04/04/25 23:42:04 - 0:00:03 - COMO Train Epoch: 153 [0/800 (0%)]	Loss: 24.069231
+INFO - 04/04/25 23:42:04 - 0:00:03 - como_val_loss: 26.602610
+INFO - 04/04/25 23:42:04 - 0:00:03 - COMO Train Epoch: 154 [0/800 (0%)]	Loss: 27.899719
+INFO - 04/04/25 23:42:04 - 0:00:03 - como_val_loss: 26.524580
+INFO - 04/04/25 23:42:04 - 0:00:03 - COMO Train Epoch: 155 [0/800 (0%)]	Loss: 28.666653
+INFO - 04/04/25 23:42:04 - 0:00:03 - como_val_loss: 26.436182
+INFO - 04/04/25 23:42:04 - 0:00:03 - COMO Train Epoch: 156 [0/800 (0%)]	Loss: 26.030329
+INFO - 04/04/25 23:42:04 - 0:00:03 - como_val_loss: 26.358650
+INFO - 04/04/25 23:42:04 - 0:00:03 - COMO Train Epoch: 157 [0/800 (0%)]	Loss: 30.629297
+INFO - 04/04/25 23:42:04 - 0:00:03 - como_val_loss: 26.276240
+INFO - 04/04/25 23:42:04 - 0:00:03 - COMO Train Epoch: 158 [0/800 (0%)]	Loss: 21.089312
+INFO - 04/04/25 23:42:04 - 0:00:03 - como_val_loss: 26.206892
+INFO - 04/04/25 23:42:04 - 0:00:03 - COMO Train Epoch: 159 [0/800 (0%)]	Loss: 20.380245
+INFO - 04/04/25 23:42:04 - 0:00:03 - como_val_loss: 26.149580
+INFO - 04/04/25 23:42:04 - 0:00:03 - COMO Train Epoch: 160 [0/800 (0%)]	Loss: 19.546900
+INFO - 04/04/25 23:42:04 - 0:00:03 - como_val_loss: 26.123887
+INFO - 04/04/25 23:42:04 - 0:00:03 - COMO Train Epoch: 161 [0/800 (0%)]	Loss: 19.936218
+INFO - 04/04/25 23:42:04 - 0:00:03 - como_val_loss: 26.096165
+INFO - 04/04/25 23:42:04 - 0:00:03 - COMO Train Epoch: 162 [0/800 (0%)]	Loss: 28.338024
+INFO - 04/04/25 23:42:04 - 0:00:03 - como_val_loss: 26.102949
+INFO - 04/04/25 23:42:04 - 0:00:03 - COMO Train Epoch: 163 [0/800 (0%)]	Loss: 23.085398
+INFO - 04/04/25 23:42:04 - 0:00:03 - como_val_loss: 26.091987
+INFO - 04/04/25 23:42:04 - 0:00:03 - COMO Train Epoch: 164 [0/800 (0%)]	Loss: 26.287075
+INFO - 04/04/25 23:42:04 - 0:00:03 - como_val_loss: 26.070916
+INFO - 04/04/25 23:42:04 - 0:00:03 - COMO Train Epoch: 165 [0/800 (0%)]	Loss: 21.339380
+INFO - 04/04/25 23:42:04 - 0:00:03 - como_val_loss: 26.038625
+INFO - 04/04/25 23:42:04 - 0:00:03 - COMO Train Epoch: 166 [0/800 (0%)]	Loss: 20.055851
+INFO - 04/04/25 23:42:04 - 0:00:03 - como_val_loss: 25.988408
+INFO - 04/04/25 23:42:04 - 0:00:03 - COMO Train Epoch: 167 [0/800 (0%)]	Loss: 17.906246
+INFO - 04/04/25 23:42:04 - 0:00:03 - como_val_loss: 25.932959
+INFO - 04/04/25 23:42:04 - 0:00:03 - COMO Train Epoch: 168 [0/800 (0%)]	Loss: 24.858715
+INFO - 04/04/25 23:42:04 - 0:00:03 - como_val_loss: 25.872822
+INFO - 04/04/25 23:42:04 - 0:00:03 - COMO Train Epoch: 169 [0/800 (0%)]	Loss: 20.975357
+INFO - 04/04/25 23:42:04 - 0:00:03 - como_val_loss: 25.814778
+INFO - 04/04/25 23:42:04 - 0:00:03 - COMO Train Epoch: 170 [0/800 (0%)]	Loss: 22.383318
+INFO - 04/04/25 23:42:04 - 0:00:03 - como_val_loss: 25.779138
+INFO - 04/04/25 23:42:04 - 0:00:03 - COMO Train Epoch: 171 [0/800 (0%)]	Loss: 25.403624
+INFO - 04/04/25 23:42:04 - 0:00:03 - como_val_loss: 25.767214
+INFO - 04/04/25 23:42:04 - 0:00:03 - COMO Train Epoch: 172 [0/800 (0%)]	Loss: 20.404428
+INFO - 04/04/25 23:42:04 - 0:00:03 - como_val_loss: 25.758110
+INFO - 04/04/25 23:42:04 - 0:00:03 - COMO Train Epoch: 173 [0/800 (0%)]	Loss: 27.758537
+INFO - 04/04/25 23:42:04 - 0:00:03 - como_val_loss: 25.752117
+INFO - 04/04/25 23:42:04 - 0:00:03 - COMO Train Epoch: 174 [0/800 (0%)]	Loss: 23.232075
+INFO - 04/04/25 23:42:04 - 0:00:03 - como_val_loss: 25.716646
+INFO - 04/04/25 23:42:04 - 0:00:03 - COMO Train Epoch: 175 [0/800 (0%)]	Loss: 25.099714
+INFO - 04/04/25 23:42:04 - 0:00:03 - como_val_loss: 25.663008
+INFO - 04/04/25 23:42:04 - 0:00:03 - COMO Train Epoch: 176 [0/800 (0%)]	Loss: 22.989395
+INFO - 04/04/25 23:42:04 - 0:00:03 - como_val_loss: 25.600869
+INFO - 04/04/25 23:42:04 - 0:00:03 - COMO Train Epoch: 177 [0/800 (0%)]	Loss: 20.670517
+INFO - 04/04/25 23:42:04 - 0:00:03 - como_val_loss: 25.548579
+INFO - 04/04/25 23:42:04 - 0:00:03 - COMO Train Epoch: 178 [0/800 (0%)]	Loss: 21.855787
+INFO - 04/04/25 23:42:04 - 0:00:03 - como_val_loss: 25.491829
+INFO - 04/04/25 23:42:04 - 0:00:03 - COMO Train Epoch: 179 [0/800 (0%)]	Loss: 25.481520
+INFO - 04/04/25 23:42:04 - 0:00:03 - como_val_loss: 25.443901
+INFO - 04/04/25 23:42:04 - 0:00:03 - COMO Train Epoch: 180 [0/800 (0%)]	Loss: 22.528421
+INFO - 04/04/25 23:42:04 - 0:00:03 - como_val_loss: 25.404888
+INFO - 04/04/25 23:42:04 - 0:00:03 - COMO Train Epoch: 181 [0/800 (0%)]	Loss: 19.558222
+INFO - 04/04/25 23:42:04 - 0:00:03 - como_val_loss: 25.376389
+INFO - 04/04/25 23:42:04 - 0:00:03 - COMO Train Epoch: 182 [0/800 (0%)]	Loss: 22.640327
+INFO - 04/04/25 23:42:04 - 0:00:03 - como_val_loss: 25.364385
+INFO - 04/04/25 23:42:04 - 0:00:03 - COMO Train Epoch: 183 [0/800 (0%)]	Loss: 20.823008
+INFO - 04/04/25 23:42:04 - 0:00:03 - como_val_loss: 25.353394
+INFO - 04/04/25 23:42:04 - 0:00:03 - COMO Train Epoch: 184 [0/800 (0%)]	Loss: 19.492277
+INFO - 04/04/25 23:42:04 - 0:00:03 - como_val_loss: 25.325569
+INFO - 04/04/25 23:42:04 - 0:00:03 - COMO Train Epoch: 185 [0/800 (0%)]	Loss: 18.134598
+INFO - 04/04/25 23:42:04 - 0:00:03 - como_val_loss: 25.280137
+INFO - 04/04/25 23:42:04 - 0:00:03 - COMO Train Epoch: 186 [0/800 (0%)]	Loss: 22.309652
+INFO - 04/04/25 23:42:04 - 0:00:03 - como_val_loss: 25.244238
+INFO - 04/04/25 23:42:04 - 0:00:03 - COMO Train Epoch: 187 [0/800 (0%)]	Loss: 24.075781
+INFO - 04/04/25 23:42:04 - 0:00:03 - como_val_loss: 25.228975
+INFO - 04/04/25 23:42:04 - 0:00:03 - COMO Train Epoch: 188 [0/800 (0%)]	Loss: 21.465446
+INFO - 04/04/25 23:42:04 - 0:00:03 - como_val_loss: 25.196304
+INFO - 04/04/25 23:42:04 - 0:00:03 - COMO Train Epoch: 189 [0/800 (0%)]	Loss: 17.358545
+INFO - 04/04/25 23:42:04 - 0:00:03 - como_val_loss: 25.183767
+INFO - 04/04/25 23:42:05 - 0:00:03 - COMO Train Epoch: 190 [0/800 (0%)]	Loss: 15.241455
+INFO - 04/04/25 23:42:05 - 0:00:03 - como_val_loss: 25.165581
+INFO - 04/04/25 23:42:05 - 0:00:03 - COMO Train Epoch: 191 [0/800 (0%)]	Loss: 18.812988
+INFO - 04/04/25 23:42:05 - 0:00:03 - como_val_loss: 25.163472
+INFO - 04/04/25 23:42:05 - 0:00:03 - COMO Train Epoch: 192 [0/800 (0%)]	Loss: 24.004040
+INFO - 04/04/25 23:42:05 - 0:00:03 - como_val_loss: 25.182786
+INFO - 04/04/25 23:42:05 - 0:00:03 - COMO Train Epoch: 193 [0/800 (0%)]	Loss: 25.715645
+INFO - 04/04/25 23:42:05 - 0:00:03 - como_val_loss: 25.180449
+INFO - 04/04/25 23:42:05 - 0:00:03 - COMO Train Epoch: 194 [0/800 (0%)]	Loss: 21.558235
+INFO - 04/04/25 23:42:05 - 0:00:03 - como_val_loss: 25.175659
+INFO - 04/04/25 23:42:05 - 0:00:03 - COMO Train Epoch: 195 [0/800 (0%)]	Loss: 20.694485
+INFO - 04/04/25 23:42:05 - 0:00:03 - como_val_loss: 25.175059
+INFO - 04/04/25 23:42:05 - 0:00:04 - COMO Train Epoch: 196 [0/800 (0%)]	Loss: 20.354568
+INFO - 04/04/25 23:42:05 - 0:00:04 - como_val_loss: 25.157354
+INFO - 04/04/25 23:42:05 - 0:00:04 - COMO Train Epoch: 197 [0/800 (0%)]	Loss: 20.487902
+INFO - 04/04/25 23:42:05 - 0:00:04 - como_val_loss: 25.134634
+INFO - 04/04/25 23:42:05 - 0:00:04 - COMO Train Epoch: 198 [0/800 (0%)]	Loss: 18.695902
+INFO - 04/04/25 23:42:05 - 0:00:04 - como_val_loss: 25.099478
+INFO - 04/04/25 23:42:05 - 0:00:04 - COMO Train Epoch: 199 [0/800 (0%)]	Loss: 23.201008
+INFO - 04/04/25 23:42:05 - 0:00:04 - como_val_loss: 25.065269
+INFO - 04/04/25 23:42:05 - 0:00:04 - COMO Train Epoch: 200 [0/800 (0%)]	Loss: 18.779497
+INFO - 04/04/25 23:42:05 - 0:00:04 - como_val_loss: 25.036401
+INFO - 04/04/25 23:42:05 - 0:00:04 - COMO Train Epoch: 201 [0/800 (0%)]	Loss: 16.874189
+INFO - 04/04/25 23:42:05 - 0:00:04 - como_val_loss: 25.019265
+INFO - 04/04/25 23:42:05 - 0:00:04 - COMO Train Epoch: 202 [0/800 (0%)]	Loss: 22.238466
+INFO - 04/04/25 23:42:05 - 0:00:04 - como_val_loss: 24.997324
+INFO - 04/04/25 23:42:05 - 0:00:04 - COMO Train Epoch: 203 [0/800 (0%)]	Loss: 20.909779
+INFO - 04/04/25 23:42:05 - 0:00:04 - como_val_loss: 24.982490
+INFO - 04/04/25 23:42:05 - 0:00:04 - COMO Train Epoch: 204 [0/800 (0%)]	Loss: 21.400953
+INFO - 04/04/25 23:42:05 - 0:00:04 - como_val_loss: 24.945747
+INFO - 04/04/25 23:42:05 - 0:00:04 - COMO Train Epoch: 205 [0/800 (0%)]	Loss: 20.002197
+INFO - 04/04/25 23:42:05 - 0:00:04 - como_val_loss: 24.920054
+INFO - 04/04/25 23:42:05 - 0:00:04 - COMO Train Epoch: 206 [0/800 (0%)]	Loss: 24.178684
+INFO - 04/04/25 23:42:05 - 0:00:04 - como_val_loss: 24.906594
+INFO - 04/04/25 23:42:05 - 0:00:04 - COMO Train Epoch: 207 [0/800 (0%)]	Loss: 20.068287
+INFO - 04/04/25 23:42:05 - 0:00:04 - como_val_loss: 24.890735
+INFO - 04/04/25 23:42:05 - 0:00:04 - COMO Train Epoch: 208 [0/800 (0%)]	Loss: 22.535782
+INFO - 04/04/25 23:42:05 - 0:00:04 - como_val_loss: 24.874121
+INFO - 04/04/25 23:42:05 - 0:00:04 - COMO Train Epoch: 209 [0/800 (0%)]	Loss: 19.964327
+INFO - 04/04/25 23:42:05 - 0:00:04 - como_val_loss: 24.868208
+INFO - 04/04/25 23:42:05 - 0:00:04 - COMO Train Epoch: 210 [0/800 (0%)]	Loss: 17.413723
+INFO - 04/04/25 23:42:05 - 0:00:04 - como_val_loss: 24.838699
+INFO - 04/04/25 23:42:05 - 0:00:04 - COMO Train Epoch: 211 [0/800 (0%)]	Loss: 19.412901
+INFO - 04/04/25 23:42:05 - 0:00:04 - como_val_loss: 24.824592
+INFO - 04/04/25 23:42:05 - 0:00:04 - COMO Train Epoch: 212 [0/800 (0%)]	Loss: 18.018349
+INFO - 04/04/25 23:42:05 - 0:00:04 - como_val_loss: 24.815972
+INFO - 04/04/25 23:42:05 - 0:00:04 - COMO Train Epoch: 213 [0/800 (0%)]	Loss: 18.255974
+INFO - 04/04/25 23:42:05 - 0:00:04 - como_val_loss: 24.790149
+INFO - 04/04/25 23:42:05 - 0:00:04 - COMO Train Epoch: 214 [0/800 (0%)]	Loss: 24.895239
+INFO - 04/04/25 23:42:05 - 0:00:04 - como_val_loss: 24.789771
+INFO - 04/04/25 23:42:05 - 0:00:04 - COMO Train Epoch: 215 [0/800 (0%)]	Loss: 18.828617
+INFO - 04/04/25 23:42:05 - 0:00:04 - como_val_loss: 24.785342
+INFO - 04/04/25 23:42:05 - 0:00:04 - COMO Train Epoch: 216 [0/800 (0%)]	Loss: 17.052130
+INFO - 04/04/25 23:42:05 - 0:00:04 - como_val_loss: 24.810610
+INFO - 04/04/25 23:42:05 - 0:00:04 - COMO Train Epoch: 217 [0/800 (0%)]	Loss: 20.855633
+INFO - 04/04/25 23:42:05 - 0:00:04 - como_val_loss: 24.820029
+INFO - 04/04/25 23:42:05 - 0:00:04 - COMO Train Epoch: 218 [0/800 (0%)]	Loss: 14.767019
+INFO - 04/04/25 23:42:05 - 0:00:04 - como_val_loss: 24.816270
+INFO - 04/04/25 23:42:05 - 0:00:04 - COMO Train Epoch: 219 [0/800 (0%)]	Loss: 22.882812
+INFO - 04/04/25 23:42:05 - 0:00:04 - como_val_loss: 24.814204
+INFO - 04/04/25 23:42:05 - 0:00:04 - COMO Train Epoch: 220 [0/800 (0%)]	Loss: 19.774271
+INFO - 04/04/25 23:42:05 - 0:00:04 - como_val_loss: 24.782427
+INFO - 04/04/25 23:42:05 - 0:00:04 - COMO Train Epoch: 221 [0/800 (0%)]	Loss: 21.940836
+INFO - 04/04/25 23:42:05 - 0:00:04 - como_val_loss: 24.785994
+INFO - 04/04/25 23:42:05 - 0:00:04 - COMO Train Epoch: 222 [0/800 (0%)]	Loss: 18.262188
+INFO - 04/04/25 23:42:05 - 0:00:04 - como_val_loss: 24.785620
+INFO - 04/04/25 23:42:05 - 0:00:04 - COMO Train Epoch: 223 [0/800 (0%)]	Loss: 20.309202
+INFO - 04/04/25 23:42:05 - 0:00:04 - como_val_loss: 24.761250
+INFO - 04/04/25 23:42:05 - 0:00:04 - COMO Train Epoch: 224 [0/800 (0%)]	Loss: 24.385508
+INFO - 04/04/25 23:42:05 - 0:00:04 - como_val_loss: 24.747651
+INFO - 04/04/25 23:42:05 - 0:00:04 - COMO Train Epoch: 225 [0/800 (0%)]	Loss: 20.453547
+INFO - 04/04/25 23:42:05 - 0:00:04 - como_val_loss: 24.719453
+INFO - 04/04/25 23:42:05 - 0:00:04 - COMO Train Epoch: 226 [0/800 (0%)]	Loss: 20.910686
+INFO - 04/04/25 23:42:05 - 0:00:04 - como_val_loss: 24.710215
+INFO - 04/04/25 23:42:05 - 0:00:04 - COMO Train Epoch: 227 [0/800 (0%)]	Loss: 23.128374
+INFO - 04/04/25 23:42:05 - 0:00:04 - como_val_loss: 24.684170
+INFO - 04/04/25 23:42:05 - 0:00:04 - COMO Train Epoch: 228 [0/800 (0%)]	Loss: 18.877230
+INFO - 04/04/25 23:42:05 - 0:00:04 - como_val_loss: 24.651587
+INFO - 04/04/25 23:42:05 - 0:00:04 - COMO Train Epoch: 229 [0/800 (0%)]	Loss: 21.858715
+INFO - 04/04/25 23:42:05 - 0:00:04 - como_val_loss: 24.629246
+INFO - 04/04/25 23:42:05 - 0:00:04 - COMO Train Epoch: 230 [0/800 (0%)]	Loss: 21.372787
+INFO - 04/04/25 23:42:05 - 0:00:04 - como_val_loss: 24.614062
+INFO - 04/04/25 23:42:05 - 0:00:04 - COMO Train Epoch: 231 [0/800 (0%)]	Loss: 15.515993
+INFO - 04/04/25 23:42:05 - 0:00:04 - como_val_loss: 24.604663
+INFO - 04/04/25 23:42:05 - 0:00:04 - COMO Train Epoch: 232 [0/800 (0%)]	Loss: 19.971565
+INFO - 04/04/25 23:42:05 - 0:00:04 - como_val_loss: 24.575356
+INFO - 04/04/25 23:42:05 - 0:00:04 - COMO Train Epoch: 233 [0/800 (0%)]	Loss: 15.256916
+INFO - 04/04/25 23:42:05 - 0:00:04 - como_val_loss: 24.575576
+INFO - 04/04/25 23:42:05 - 0:00:04 - COMO Train Epoch: 234 [0/800 (0%)]	Loss: 15.289119
+INFO - 04/04/25 23:42:05 - 0:00:04 - como_val_loss: 24.570889
+INFO - 04/04/25 23:42:05 - 0:00:04 - COMO Train Epoch: 235 [0/800 (0%)]	Loss: 10.640633
+INFO - 04/04/25 23:42:05 - 0:00:04 - como_val_loss: 24.566260
+INFO - 04/04/25 23:42:05 - 0:00:04 - COMO Train Epoch: 236 [0/800 (0%)]	Loss: 12.723273
+INFO - 04/04/25 23:42:05 - 0:00:04 - como_val_loss: 24.575430
+INFO - 04/04/25 23:42:05 - 0:00:04 - COMO Train Epoch: 237 [0/800 (0%)]	Loss: 20.019089
+INFO - 04/04/25 23:42:05 - 0:00:04 - como_val_loss: 24.611108
+INFO - 04/04/25 23:42:05 - 0:00:04 - COMO Train Epoch: 238 [0/800 (0%)]	Loss: 21.876719
+INFO - 04/04/25 23:42:05 - 0:00:04 - como_val_loss: 24.644233
+INFO - 04/04/25 23:42:05 - 0:00:04 - COMO Train Epoch: 239 [0/800 (0%)]	Loss: 20.631687
+INFO - 04/04/25 23:42:05 - 0:00:04 - como_val_loss: 24.639326
+INFO - 04/04/25 23:42:05 - 0:00:04 - COMO Train Epoch: 240 [0/800 (0%)]	Loss: 17.798904
+INFO - 04/04/25 23:42:05 - 0:00:04 - como_val_loss: 24.626929
+INFO - 04/04/25 23:42:05 - 0:00:04 - COMO Train Epoch: 241 [0/800 (0%)]	Loss: 16.849363
+INFO - 04/04/25 23:42:05 - 0:00:04 - como_val_loss: 24.603262
+INFO - 04/04/25 23:42:05 - 0:00:04 - COMO Train Epoch: 242 [0/800 (0%)]	Loss: 13.586016
+INFO - 04/04/25 23:42:05 - 0:00:04 - como_val_loss: 24.600117
+INFO - 04/04/25 23:42:05 - 0:00:04 - COMO Train Epoch: 243 [0/800 (0%)]	Loss: 21.771704
+INFO - 04/04/25 23:42:05 - 0:00:04 - como_val_loss: 24.599138
+INFO - 04/04/25 23:42:05 - 0:00:04 - COMO Train Epoch: 244 [0/800 (0%)]	Loss: 19.064751
+INFO - 04/04/25 23:42:05 - 0:00:04 - como_val_loss: 24.606069
+INFO - 04/04/25 23:42:05 - 0:00:04 - COMO Train Epoch: 245 [0/800 (0%)]	Loss: 21.388910
+INFO - 04/04/25 23:42:05 - 0:00:04 - como_val_loss: 24.634277
+INFO - 04/04/25 23:42:05 - 0:00:04 - COMO Train Epoch: 246 [0/800 (0%)]	Loss: 19.331522
+INFO - 04/04/25 23:42:05 - 0:00:04 - como_val_loss: 24.645525
+INFO - 04/04/25 23:42:06 - 0:00:05 - Train Epoch: 1 [0/800 (0%)]	 Global Objective Loss: 12.321571,	 Propensity loss: 0.1127350777387619
+INFO - 04/04/25 23:42:07 - 0:00:06 - val_loss: 25.040220
+INFO - 04/04/25 23:42:08 - 0:00:07 - Train Epoch: 2 [0/800 (0%)]	 Global Objective Loss: 9.707857,	 Propensity loss: 0.26110005378723145
+INFO - 04/04/25 23:42:09 - 0:00:08 - val_loss: 20.772695
+INFO - 04/04/25 23:42:10 - 0:00:09 - Train Epoch: 3 [0/800 (0%)]	 Global Objective Loss: 8.281044,	 Propensity loss: 0.3764094412326813
+INFO - 04/04/25 23:42:11 - 0:00:10 - val_loss: 16.039974
+INFO - 04/04/25 23:42:12 - 0:00:11 - Train Epoch: 4 [0/800 (0%)]	 Global Objective Loss: 6.391803,	 Propensity loss: 0.6135552525520325
+INFO - 04/04/25 23:42:13 - 0:00:12 - val_loss: 15.261326
+INFO - 04/04/25 23:42:14 - 0:00:13 - Train Epoch: 5 [0/800 (0%)]	 Global Objective Loss: 3.879654,	 Propensity loss: 0.7952982783317566
+INFO - 04/04/25 23:42:15 - 0:00:14 - val_loss: 14.277500
+INFO - 04/04/25 23:42:16 - 0:00:15 - Train Epoch: 6 [0/800 (0%)]	 Global Objective Loss: 0.979048,	 Propensity loss: 0.9735888242721558
+INFO - 04/04/25 23:42:17 - 0:00:16 - val_loss: 12.229968
+INFO - 04/04/25 23:42:18 - 0:00:17 - Train Epoch: 7 [0/800 (0%)]	 Global Objective Loss: 0.534140,	 Propensity loss: 1.0437384843826294
+INFO - 04/04/25 23:42:19 - 0:00:18 - val_loss: 12.805059
+INFO - 04/04/25 23:42:20 - 0:00:19 - Train Epoch: 8 [0/800 (0%)]	 Global Objective Loss: 0.368233,	 Propensity loss: 1.2026605606079102
+INFO - 04/04/25 23:42:21 - 0:00:20 - val_loss: 13.489156
+INFO - 04/04/25 23:42:22 - 0:00:21 - Train Epoch: 9 [0/800 (0%)]	 Global Objective Loss: 0.243833,	 Propensity loss: 1.216741919517517
+INFO - 04/04/25 23:42:22 - 0:00:21 - val_loss: 13.622697
+INFO - 04/04/25 23:42:24 - 0:00:23 - Train Epoch: 10 [0/800 (0%)]	 Global Objective Loss: 0.175345,	 Propensity loss: 1.1873953342437744
+INFO - 04/04/25 23:42:24 - 0:00:23 - val_loss: 13.163408
+INFO - 04/04/25 23:42:26 - 0:00:24 - Train Epoch: 11 [0/800 (0%)]	 Global Objective Loss: 0.157807,	 Propensity loss: 1.196599006652832
+INFO - 04/04/25 23:42:26 - 0:00:25 - val_loss: 12.711903
+INFO - 04/04/25 23:42:27 - 0:00:26 - Train Epoch: 12 [0/800 (0%)]	 Global Objective Loss: 0.128217,	 Propensity loss: 1.2346587181091309
+INFO - 04/04/25 23:42:28 - 0:00:27 - val_loss: 13.105339
+INFO - 04/04/25 23:42:29 - 0:00:28 - Train Epoch: 13 [0/800 (0%)]	 Global Objective Loss: 0.123100,	 Propensity loss: 1.2836426496505737
+INFO - 04/04/25 23:42:30 - 0:00:29 - val_loss: 13.500640
+INFO - 04/04/25 23:42:31 - 0:00:30 - Train Epoch: 14 [0/800 (0%)]	 Global Objective Loss: 0.100781,	 Propensity loss: 1.278139591217041
+INFO - 04/04/25 23:42:32 - 0:00:31 - val_loss: 13.840082
+INFO - 04/04/25 23:42:33 - 0:00:32 - Train Epoch: 15 [0/800 (0%)]	 Global Objective Loss: 0.102798,	 Propensity loss: 1.3777180910110474
+INFO - 04/04/25 23:42:34 - 0:00:32 - val_loss: 14.557241
+INFO - 04/04/25 23:42:35 - 0:00:34 - Train Epoch: 16 [0/800 (0%)]	 Global Objective Loss: 0.136513,	 Propensity loss: 1.3162075281143188
+INFO - 04/04/25 23:42:35 - 0:00:34 - val_loss: 14.116123
+INFO - 04/04/25 23:42:36 - 0:00:35 - Train Epoch: 17 [0/800 (0%)]	 Global Objective Loss: 0.169184,	 Propensity loss: 1.4111762046813965
+INFO - 04/04/25 23:42:37 - 0:00:36 - val_loss: 14.955762
+INFO - 04/04/25 23:42:37 - 0:00:36 - Inference on in-sample units...
+100%|██████████████████████████████████████████████████████████████████████████| 1000/1000 [00:02<00:00, 458.41it/s]
+INFO - 04/04/25 23:42:40 - 0:00:38 - Inference on out-sample units...
+100%|████████████████████████████████████████████████████████████████████████████| 500/500 [00:01<00:00, 460.72it/s]
+INFO - 04/04/25 23:42:41 - 0:00:40 - Evaluate errors for K=2...
+100%|████████████████████████████████████████████████████████████████████████| 1000/1000 [00:00<00:00, 93439.32it/s]
+INFO - 04/04/25 23:42:41 - 0:00:40 - K=2: 	 In Sample: {'unweighted': np.float64(15.280199451273658), 'weighted': np.float64(15.280199451273658)}, 	 Out Sample : {'unweighted': np.float64(16.85767164340934), 'weighted': np.float64(16.85767164340934)}
+INFO - 04/04/25 23:42:41 - 0:00:40 - Evaluate errors for K=3...
+100%|████████████████████████████████████████████████████████████████████████| 1000/1000 [00:00<00:00, 90326.35it/s]
+INFO - 04/04/25 23:42:41 - 0:00:40 - K=3: 	 In Sample: {'unweighted': np.float64(19.00237342574023), 'weighted': np.float64(18.6471446272612)}, 	 Out Sample : {'unweighted': np.float64(16.7174742838976), 'weighted': np.float64(16.578220352904903)}
+INFO - 04/04/25 23:42:41 - 0:00:40 - Evaluate errors for K=4...
+100%|████████████████████████████████████████████████████████████████████████| 1000/1000 [00:00<00:00, 77072.84it/s]
+INFO - 04/04/25 23:42:41 - 0:00:40 - K=4: 	 In Sample: {'unweighted': np.float64(20.81426681661902), 'weighted': np.float64(20.45162768042457)}, 	 Out Sample : {'unweighted': np.float64(16.936192673219683), 'weighted': np.float64(16.756832094821103)}
+INFO - 04/04/25 23:42:41 - 0:00:40 - Evaluate errors for K=5...
+100%|████████████████████████████████████████████████████████████████████████| 1000/1000 [00:00<00:00, 67208.87it/s]
+INFO - 04/04/25 23:42:41 - 0:00:40 - K=5: 	 In Sample: {'unweighted': np.float64(20.868461293476567), 'weighted': np.float64(20.445673865446416)}, 	 Out Sample : {'unweighted': np.float64(16.98396398216999), 'weighted': np.float64(16.88482183346674)}
+INFO - 04/04/25 23:42:41 - 0:00:40 - Evaluate errors for K=6...
+100%|████████████████████████████████████████████████████████████████████████| 1000/1000 [00:00<00:00, 56973.12it/s]
+INFO - 04/04/25 23:42:41 - 0:00:40 - K=6: 	 In Sample: {'unweighted': np.float64(20.55903796918049), 'weighted': np.float64(20.223733523426557)}, 	 Out Sample : {'unweighted': np.float64(18.8552595285356), 'weighted': np.float64(18.50779562724267)}
+INFO - 04/04/25 23:42:41 - 0:00:40 - Evaluate errors for K=7...
+100%|████████████████████████████████████████████████████████████████████████| 1000/1000 [00:00<00:00, 49801.17it/s]
+INFO - 04/04/25 23:42:41 - 0:00:40 - K=7: 	 In Sample: {'unweighted': np.float64(19.933564674857216), 'weighted': np.float64(19.73730526459998)}, 	 Out Sample : {'unweighted': np.float64(19.616795523645546), 'weighted': np.float64(19.266725452592567)}
+INFO - 04/04/25 23:42:41 - 0:00:40 - Evaluate errors for K=8...
+100%|████████████████████████████████████████████████████████████████████████| 1000/1000 [00:00<00:00, 43325.11it/s]
+INFO - 04/04/25 23:42:41 - 0:00:40 - K=8: 	 In Sample: {'unweighted': np.float64(20.82835169298338), 'weighted': np.float64(20.50137130120301)}, 	 Out Sample : {'unweighted': np.float64(19.528588401185093), 'weighted': np.float64(19.222745439471108)}
+INFO - 04/04/25 23:42:41 - 0:00:40 - Evaluate errors for K=9...
+100%|████████████████████████████████████████████████████████████████████████| 1000/1000 [00:00<00:00, 37592.46it/s]
+INFO - 04/04/25 23:42:41 - 0:00:40 - K=9: 	 In Sample: {'unweighted': np.float64(20.875623582094843), 'weighted': np.float64(20.589891369236472)}, 	 Out Sample : {'unweighted': np.float64(19.445079005777362), 'weighted': np.float64(19.170741255167304)}
+INFO - 04/04/25 23:42:41 - 0:00:40 - Evaluate errors for K=10...
+100%|████████████████████████████████████████████████████████████████████████| 1000/1000 [00:00<00:00, 32685.27it/s]
+INFO - 04/04/25 23:42:41 - 0:00:40 - K=10: 	 In Sample: {'unweighted': np.float64(22.24799957680622), 'weighted': np.float64(21.773540979641933)}, 	 Out Sample : {'unweighted': np.float64(20.315926870470523), 'weighted': np.float64(19.961396333761837)}

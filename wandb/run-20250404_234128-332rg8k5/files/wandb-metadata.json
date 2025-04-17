@@ -1,0 +1,16 @@
+{
+  "os":  "macOS-15.3.1-arm64-arm-64bit",
+  "python":  "CPython 3.12.4",
+  "startedAt":  "2025-04-05T06:41:28.606864Z",
+  "program":  "/Users/lei_shi/Documents/GitHub/DKRL-LLM/SIN-main/run_model_training.py",
+  "codePath":  "SIN-main/run_model_training.py",
+  "git":  {
+    "remote":  "https://github.com/LeiShi-rocks/DKRL-LLM.git",
+    "commit":  "990b3c42b9c559dc3f76ebfae09ff65cd8b241e9"
+  },
+  "email":  "leishi@berkeley.edu",
+  "root":  "/Users/lei_shi/Documents/GitHub/DKRL-LLM",
+  "host":  "Mac.attlocal.net",
+  "executable":  "/opt/anaconda3/envs/dkrl/bin/python",
+  "codePathLocal":  "SIN-main/run_model_training.py"
+}

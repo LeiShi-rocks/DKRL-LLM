@@ -1,0 +1,15 @@
+{"time":"2025-04-04T23:42:00.982014-07:00","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"/Users/lei_shi/Documents/GitHub/DKRL-LLM/wandb/run-20250404_234200-x946q7m8/logs/debug-core.log"}
+{"time":"2025-04-04T23:42:01.175808-07:00","level":"INFO","msg":"created new stream","id":"x946q7m8"}
+{"time":"2025-04-04T23:42:01.175844-07:00","level":"INFO","msg":"stream: started","id":"x946q7m8"}
+{"time":"2025-04-04T23:42:01.175849-07:00","level":"INFO","msg":"writer: Do: started","stream_id":"x946q7m8"}
+{"time":"2025-04-04T23:42:01.17588-07:00","level":"INFO","msg":"sender: started","stream_id":"x946q7m8"}
+{"time":"2025-04-04T23:42:01.175864-07:00","level":"INFO","msg":"handler: started","stream_id":"x946q7m8"}
+{"time":"2025-04-04T23:42:01.52392-07:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-04T23:42:41.608631-07:00","level":"INFO","msg":"stream: closing","id":"x946q7m8"}
+{"time":"2025-04-04T23:42:41.608674-07:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-04T23:42:41.608806-07:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-04T23:42:42.06106-07:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-04T23:42:43.896494-07:00","level":"INFO","msg":"handler: closed","stream_id":"x946q7m8"}
+{"time":"2025-04-04T23:42:43.896501-07:00","level":"INFO","msg":"writer: Close: closed","stream_id":"x946q7m8"}
+{"time":"2025-04-04T23:42:43.89651-07:00","level":"INFO","msg":"sender: closed","stream_id":"x946q7m8"}
+{"time":"2025-04-04T23:42:43.896713-07:00","level":"INFO","msg":"stream: closed","id":"x946q7m8"}

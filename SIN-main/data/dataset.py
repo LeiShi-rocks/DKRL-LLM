@@ -306,7 +306,7 @@ def create_pt_geometric_dataset(units, treatment_graphs: list, outcomes=None) ->
             graph_data.y = torch.Tensor([outcomes[i]])
         if is_multi_relational:
             edge_types = treatment_graphs[i].get("edge_types", [])
-            if edge_types != []:
+            if edge_types is not None and edge_types.size > 0:
                 graph_data.edge_types = torch.LongTensor([edge_types]).squeeze()
         graph_data.__setitem__("c_size", torch.IntTensor([c_size]))
         data_list.append(graph_data)

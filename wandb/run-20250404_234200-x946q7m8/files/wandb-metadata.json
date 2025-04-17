@@ -1,0 +1,44 @@
+{
+  "os":  "macOS-15.3.1-arm64-arm-64bit",
+  "python":  "CPython 3.12.4",
+  "startedAt":  "2025-04-05T06:42:00.979545Z",
+  "program":  "/Users/lei_shi/Documents/GitHub/DKRL-LLM/SIN-main/run_model_training.py",
+  "codePath":  "SIN-main/run_model_training.py",
+  "git":  {
+    "remote":  "https://github.com/LeiShi-rocks/DKRL-LLM.git",
+    "commit":  "990b3c42b9c559dc3f76ebfae09ff65cd8b241e9"
+  },
+  "email":  "leishi@berkeley.edu",
+  "root":  "/Users/lei_shi/Documents/GitHub/DKRL-LLM",
+  "host":  "Mac.attlocal.net",
+  "executable":  "/opt/anaconda3/envs/dkrl/bin/python",
+  "codePathLocal":  "SIN-main/run_model_training.py",
+  "cpu_count":  12,
+  "cpu_count_logical":  12,
+  "disk":  {
+    "/":  {
+      "total":  "994662584320",
+      "used":  "88560996352"
+    },
+    "/System/Volumes/Data":  {
+      "total":  "994662584320",
+      "used":  "88560996352"
+    }
+  },
+  "memory":  {
+    "total":  "34359738368"
+  },
+  "cpu":  {
+    "count":  12,
+    "countLogical":  12
+  },
+  "apple":  {
+    "name":  "Apple M2 Max",
+    "ecpuCores":  4,
+    "pcpuCores":  8,
+    "gpuCores":  38,
+    "memoryGb":  32,
+    "swapTotalBytes":  "2147483648",
+    "ramTotalBytes":  "34359738368"
+  }
+}
