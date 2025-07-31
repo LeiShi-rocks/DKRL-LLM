@@ -1,0 +1,21 @@
+{
+  "creation_date": "2025-07-26T15:44:00.214231",
+  "task": "next_day_click_prediction",
+  "training_period": "2019-11-09 to 2019-11-12",
+  "test_date": "2019-11-13",
+  "n_samples": 18309,
+  "n_positive": 759,
+  "n_negative": 17550,
+  "positive_rate": 0.04145502212026872,
+  "n_users": 500,
+  "n_news_with_embeddings": 51282,
+  "user_feature_dim": 219,
+  "news_embedding_dim": 100,
+  "total_feature_dim": 319,
+  "feature_breakdown": {
+    "statistical_features": 19,
+    "user_embedding": 100,
+    "history_embedding": 100,
+    "news_embedding": 100
+  }
+}

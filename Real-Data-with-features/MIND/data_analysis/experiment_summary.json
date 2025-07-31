@@ -1,0 +1,30 @@
+{
+  "best_baseline": {
+    "model": "XGBoost_all_features",
+    "test_r2": 0.0007194262915394267,
+    "test_rmse": 0.1187403010417395
+  },
+  "dkrl": {
+    "test_r2": -0.00019026403127009317,
+    "test_rmse": 0.11879433608136757,
+    "best_params": {
+      "r": 3,
+      "penalty": 0.001
+    }
+  },
+  "improvement": -0.0009096903228095199,
+  "dataset_info": {
+    "n_users": 1000,
+    "n_news": 2000,
+    "n_interactions": 10000,
+    "utility_mean": 0.34883113041332897,
+    "utility_std": 0.12058042506847216,
+    "utility_range": [
+      0.02,
+      0.7
+    ],
+    "outcome_type": "continuous_utility",
+    "propensity_source": "synthetic",
+    "embedding_dim": 50
+  }
+}

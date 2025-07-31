@@ -1,0 +1,47 @@
+{
+  "processing_timestamp": "2025-07-30 02:19:37",
+  "original_files": {
+    "X_news_embeddings.npy": {
+      "shape": [
+        18309,
+        100
+      ],
+      "size_mb": 13.968658447265625
+    },
+    "X_user_features.npy": {
+      "shape": [
+        18309,
+        219
+      ],
+      "size_mb": 30.59136199951172
+    }
+  },
+  "filtered_files": {
+    "X_news_embeddings_unique.npy": {
+      "original_shape": [
+        18309,
+        100
+      ],
+      "unique_shape": [
+        1162,
+        100
+      ],
+      "compression_ratio": 0.06346605494565515,
+      "size_reduction_mb": 13.082122802734375,
+      "duplicates_removed": 17147
+    },
+    "X_user_features_unique.npy": {
+      "original_shape": [
+        18309,
+        219
+      ],
+      "unique_shape": [
+        239,
+        219
+      ],
+      "compression_ratio": 0.013053689442350757,
+      "size_reduction_mb": 30.192031860351562,
+      "duplicates_removed": 18070
+    }
+  }
+}

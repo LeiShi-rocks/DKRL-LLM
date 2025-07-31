@@ -1,0 +1,10 @@
+{
+  "n_samples": 10000,
+  "user_feature_dim": 59,
+  "news_feature_dim": 100,
+  "historical_feature_dim": 100,
+  "mean_utility": 0.08579976824297475,
+  "std_utility": 0.08792165083023906,
+  "min_utility": 0.0,
+  "max_utility": 0.6991893922452117
+}
